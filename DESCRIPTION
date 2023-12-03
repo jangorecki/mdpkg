@@ -1,0 +1,11 @@
+Package: mdpkg
+Version: 1.0.0
+Title: markdown vignette
+Authors@R: c(
+  person("Jan","Gorecki", role=c("aut","cre"), email="j.gorecki@wit.edu.pl"))
+Description: Example package for markdown vignette knitr engine.
+License: GPL-2
+URL: https://github.com/jangorecki/mdpkg
+BugReports: https://github.com/jangorecki/mdpkg/issues/
+Suggests: knitr, markdown
+VignetteBuilder: knitr

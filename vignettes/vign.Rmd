@@ -1,0 +1,20 @@
+---
+title: "Title of a vignette"
+output:
+  markdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Example vignette}
+  %\VignetteEngine{knitr::knitr}
+  \usepackage[utf8]{inputenc}
+---
+
+## Hello
+
+```{r hello}
+library(mdpkg)
+hello()
+```
+
+## Bye
+
+Bye!
