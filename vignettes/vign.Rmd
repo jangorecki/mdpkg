@@ -1,12 +1,19 @@
 ---
 title: "Title of a vignette"
 output:
-  markdown::html_format
+  markdown::html_format:
+    options:
+      toc: true
+      number_sections: true
+    meta:
+      css: [default, css/toc.css]
 vignette: >
   %\VignetteIndexEntry{Example vignette}
   %\VignetteEngine{knitr::knitr}
   \usepackage[utf8]{inputenc}
 ---
+
+# mdpkg
 
 ## Hello
 
